@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zettai Tech - Soluções em Tecnologia e Inovação Digital">
+    <title>Zettai Tech - Soluções em Tecnologia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-container">
+                    <a href="#home" class="logo">
+                        <img src="images/logo.svg" alt="Zettai Tech" style="height: 45px; width: 45px;">
+                        <span>Zettai Tech</span>
+                    </a>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Transformando
+                        <span class="gradient-text">Ideias em Tecnologia</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Soluções inovadoras e eficientes para impulsionar seu negócio na era digital
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary">Começar Agora</a>
+                        <a href="#sobre" class="btn btn-secondary">Saiba Mais</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>10</h3>
+                            <p>Projetos Realizados</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3</h3>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1</h3>
+                            <p>Ano de Experiência</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-bg.svg" alt="Conexão de Tecnologia" style="width: 100%; max-width: 450px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre a Zettai Tech</h2>
+                <p class="section-subtitle">Conhece nossa história e missão</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Liderança em Inovação Digital</h3>
+                    <p>
+                        A Zettai Tech é uma empresa especializada em soluções tecnológicas de ponta, 
+                        transformando desafios empresariais em oportunidades de crescimento através da inovação digital.
+                    </p>
+                    <p>
+                        Com 18 meses de experiência, desenvolvemos estratégias personalizadas 
+                        que conectam tecnologia avançada com resultados tangíveis para nossos clientes.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Equipe especializada e certificada</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Soluções personalizadas e escaláveis</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Suporte técnico 24/7</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Compromisso com qualidade e inovação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-network.svg" alt="Rede de Tecnologia" style="width: 100%; max-width: 350px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-subtitle">Soluções completas para sua empresa</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-content">
+                        <img src="images/service-web.svg" alt="Desenvolvimento Web" style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criamos sites e aplicações web modernas, responsivas e de alto desempenho para sua marca.</p>
+                    <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-content">
+                        <img src="images/service-mobile.svg" alt="Aplicativos Mobile" style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicativos Mobile</h3>
+                    <p>Soluções móveis nativas e híbridas que oferecem experiências incríveis aos usuários.</p>
+                    <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-content">
+                        <img src="images/service-cloud.svg" alt="Cloud Computing" style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Computing</h3>
+                    <p>Infraestrutura na nuvem escalável, segura e otimizada para seu negócio.</p>
+                    <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-content">
+                        <img src="images/service-security.svg" alt="Segurança & Compliance" style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Segurança & Compliance</h3>
+                    <p>Proteção completa de dados e conformidade com normas internacionais de segurança.</p>
+                    <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-content">
+                        <img src="images/service-ai.svg" alt="IA & Automação" style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>IA & Automação</h3>
+                    <p>Soluções de inteligência artificial e automação para otimizar processos.</p>
+                    <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-content">
+                        <img src="images/service-consult.svg" alt="Consultoria Técnica" style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Consultoria Técnica</h3>
+                    <p>Orientação especializada para decisões tecnológicas estratégicas da sua empresa.</p>
+                    <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Alguns dos nossos projetos em destaque</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-ecommerce.svg" alt="E-commerce Global" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Global</h3>
+                        <p>Plataforma de vendas online com integração de pagamentos internacionais e gestão de estoque em tempo real.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-health.svg" alt="Sistema de Saúde" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Sistema de Saúde</h3>
+                        <p>App mobile para gestão de consultas, prontuários eletrônicos e telemedicina.</p>
+                        <div class="portfolio-tags">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>HIPAA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-education.svg" alt="Plataforma Educacional" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Plataforma Educacional</h3>
+                        <p>LMS completo com videoaulas, interação ao vivo, avaliações e certificações automáticas.</p>
+                        <div class="portfolio-tags">
+                            <span>Vue.js</span>
+                            <span>WebRTC</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-finance.svg" alt="Dashboard Financeiro" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Dashboard Financeiro</h3>
+                        <p>Análise de dados em tempo real com visualizações avançadas e geração de relatórios automáticos.</p>
+                        <div class="portfolio-tags">
+                            <span>Angular</span>
+                            <span>Python</span>
+                            <span>Tableau</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-iot.svg" alt="IoT Industrial" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>IoT Industrial</h3>
+                        <p>Solução integrada de IoT para monitoramento de máquinas e otimização de produção.</p>
+                        <div class="portfolio-tags">
+                            <span>IoT</span>
+                            <span>Machine Learning</span>
+                            <span>Edge Computing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-security.svg" alt="Sistema de Segurança" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Sistema de Segurança</h3>
+                        <p>Plataforma de monitoramento de segurança com IA para detecção de anomalias e vulnerabilidades.</p>
+                        <div class="portfolio-tags">
+                            <span>Computer Vision</span>
+                            <span>Deep Learning</span>
+                            <span>Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="tecnologias" class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tecnologias</h2>
+                <p class="section-subtitle">Ferramentas e plataformas que utilizamos</p>
+            </div>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-vuejs"></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-angular"></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js"></i>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <i class="fab fa-node"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>C#/.NET</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cube"></i>
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-github"></i>
+                            <span>CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Databases</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>Oracle</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Vamos conversar sobre seu projeto</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>+55 (62) 98452-8714</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>zettaitechsystems@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Anápolis, GO - Brasil</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário</h4>
+                            <p>Seg-Sab: 9h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Assunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Zettai Tech</h4>
+                    <p>Transformando ideias em tecnologia desde 2012.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Desenvolvimento Web</a></li>
+                        <li><a href="#servicos">Aplicativos Mobile</a></li>
+                        <li><a href="#servicos">Cloud Computing</a></li>
+                        <li><a href="#servicos">IA & Automação</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">Documentação</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zettai Tech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
